@@ -587,3 +587,13 @@ bin/sigma_dut
 vendor/bin/fstman
 vendor/bin/cnss-daemon
 vendor/bin/cnss_diag
+
+#Dolby Digital
+-app/Ds/Ds.apk
+-app/DsUI/DsUI.apk
+dolby/ds1-default.xml
+etc/audio_effects.conf
+etc/permissions/android.dolby.xml
+lib/libstagefright_soft_ddpdec.so
+lib/soundfx/libdseffect.so
+vendor/etc/audio_effects.conf
